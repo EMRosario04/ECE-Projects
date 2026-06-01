@@ -18,7 +18,7 @@ The core active component is a **2N4410 NPN BJT**. A voltage divider bias networ
 * **Biasing Network:** $R_1 = 180\text{k}\Omega$, $R_2 = 15\text{k}\Omega$ (Yielding a base DC input resistance of $13.84\text{k}\Omega$)
 * **Collector Resistor ($R_C$):** $5.1\text{k}\Omega$
 * **Emitter Resistor ($R_E$):** $200\Omega$
-* **Coupling Capacitors ($C_1, C_2$):** $10\text{\mu F}$
+* **Coupling Capacitors ($C_1, C_2$):** 10µF
 
 ## Mathematical Verification
 To achieve the target voltage gain of at least 10, the collector and emitter resistors were calculated using the standard CE gain approximation. Assuming the intrinsic emitter resistance ($r_e'$) is negligible for the boundary calculation:
